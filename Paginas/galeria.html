@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="/images/Escudo_CDMX.png">
+    <title>Galeria</title>
+</head>
+<body style="font-family: 'Nunito Sans', sans-serif; padding: 20px 100px;">
+    <style type="text/css">
+        .boton{
+            display: block;
+            width: 150px;
+            height: 40px;
+            background-color:  #13322B;
+            color: white;
+            margin: 50px 100px;
+            border-radius: 10px;
+            padding-left: 40px;
+            padding-top: 20px;
+            text-decoration: none;
+        }
+        .home{
+            display: block;
+            width: 100px;
+            height: 40px;
+            background-color:  #13322B;
+            color: white;
+            margin: 50px 100px;
+            border-radius: 10px;
+            padding-left: 62px;
+            padding-top: 20px;
+            text-decoration: none;
+        }
+
+        p{
+            font-size: 20px;
+        }
+
+    </style>
+
+    <main>
+        <h1>Galeria</h1>
+        <p>
+            En esta sección se encuentran algunas imagenes, audios y videos
+            que se relacionan con la Ciudad de México
+        </p>
+        
+        <picture>
+            <source media="(min-width:900px)" srcset="/images/reforma.jpg">
+            <source media="(min-width:650px)" srcset="/images/angel.jpg">
+            <img src="/images/bellas-artes.webp" alt="bellas artes">
+        </picture>
+
+        <h2><br> "La China" (track no.4) que forma parte del álbum "Moctezuma"</h2>
+        
+        <svg width="290" height="180">
+            
+            <!-- Inicio de la letra 'p' -->
+            <line x1="20px" y1="20"
+                  x2="20" y2="120"
+                  stroke="red"
+                  stroke-width="5px"/>
+            <line x1="60px" y1="80px"
+                  x2="20px" y2="20px"
+                  stroke="red"
+                  stroke-width="5px"/>
+                  
+            <line x1="20px" y1="80px"
+                  x2="60px" y2="80px"
+                  stroke="red"
+                  stroke-width="5px"/>
+            
+            <!-- Letra 'o' -->
+            <circle cx="95px" cy="100px" r="25" fill="none"stroke="red" stroke-width="5px"/>
+            
+            <!-- Inicio de la letra 'r' -->
+            <line x1="130" y1="70"
+                  x2="130" y2="120"
+                  stroke="red"
+                  stroke-width="5px"/>
+            
+            <line x1="130" y1="80"
+                  x2="150" y2="80"
+                  stroke="red"
+                  stroke-width="5px"/>
+
+            <!-- Inicio de la letra 't' -->
+            <line x1="160" y1="30"
+                  x2="160" y2="120"
+                  stroke="red"
+                  stroke-width="5px"/>
+
+            <line x1="150" y1="60"
+                  x2="170" y2="60"
+                  stroke="red"
+                  stroke-width="5px"/>
+           
+            <!-- Inicio de la letra 'e' -->      
+            <line x1="180" y1="90"
+                  x2="220" y2="90"
+                  stroke="red"
+                  stroke-width="5px"/>
+            
+            <line x1="220" y1="90"
+                  x2="200" y2="65"
+                  stroke="red"
+                  stroke-width="5px"/>
+
+            <line x1="200" y1="65"
+                  x2="180" y2="90"
+                  stroke="red"
+                  stroke-width="5px"/>
+
+            <line x1="180" y1="95"
+                  x2="220" y2="110"
+                  stroke="red"
+                  stroke-width="5px"/>
+        
+            <!-- Inicio de la letra 'r' -->
+            <line x1="230" y1="70"
+                  x2="230" y2="120"
+                  stroke="red"
+                  stroke-width="5px"/>
+      
+            <line x1="230" y1="80"
+                  x2="250" y2="80"
+                  stroke="red"
+                  stroke-width="5px"/>
+            
+        </svg>
+        
+        <img src="/images/Moctezuma_LP.jpg" alt="Moctezuma">
+        <audio controls>
+            <source src="/images/Porter.mp3" type="audio/mp3">
+        </audio>
+
+        <p>
+            <b>Moctezuma</b> es el tercer álbum de estudio de la banda mexicana 
+            <b><a href="https://open.spotify.com/artist/7eBQrhxTHcor6gcbcLhqE5">Porter</a> </b>, 
+            lanzado el 18 de agosto de 2014. <br><br>
+            El álbum fue nombrado así por <b><i>Moctezuma Xocoyotzin</i></b> , 
+            gobernante de Tenochtitlán. Por medio de este álbum, Porter nos narra la 
+            conquista de México, de forma casi cronológica. <br><br><br>
+        </p>
+
+        <h2>Video del Monumento El Angel a la Independencia</h2>
+        <video width="900px" controls>
+            <source src="/images/video_cdmx.mp4">
+        </video> <br>
+
+        <a class="boton" href="./form.html"> <b>Ir al Formulario</b> </a>
+        <a class="home" href="../index.html"><b>Inicio</b> </a>
+    </main> 
+    
+</body>
+</html>

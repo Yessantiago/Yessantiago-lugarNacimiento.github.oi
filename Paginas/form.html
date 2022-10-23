@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="/images/Escudo_CDMX.png">    
+</head>
+<body style="font-family: 'Nunito Sans', sans-serif; padding: 20px 100px;">
+    <style>
+        p{
+            font-size: 20px;
+        }
+        .home{
+            display: block;
+            width: 100px;
+            height: 40px;
+            background-color:  #13322B;
+            color: white;
+            margin: 50px 100px;
+            border-radius: 10px;
+            padding-left: 62px;
+            padding-top: 20px;
+            text-decoration: none;
+        }
+    </style>
+    
+    <main>
+        <h1>Form</h1>
+        <p> <b>Llena el siguiente formulario :)</b> </p>
+
+        <script>
+            function getValores(){
+                alert("Gracias por contestar el formulario ")
+            }
+        </script>
+    
+        <form action="javascript:getValores();">
+            <p>¿Qué es lo que más te gusta de la CDMX?</p>
+
+            <input type="radio" id="museo" name="option" value="MUSEO">
+            <label>Los museos</label><br>
+            <input type="radio" id="historia" name="opcion" value="HISTORIA">
+            <label>Su historia</label><br>
+            <input type="radio" id="monumento" name="opcion" value="MONUMENTO">
+            <label>Los monumentos</label><br><br>
+            
+            <p>¿Cuántos museos hay en la Ciudad de México?</p>
+            <input type="number" id="caja1" name="caja1" placeholder="p.e. 10"><br>
+
+            <p>¿En que fecha se inguró el Palacio de Bellas artes, 
+                el cual en ese momento era conocido como el Museo de Artes Plásticas?</p>
+            <input type="date" id="caja2" name="caja2"><br>
+
+            <p> Escribe tu email </p>
+            <input type="email" id="user-email" placeholder="p.e. ejemplo@gmail.com">
+
+            <p>Escribe una contraseña</p>
+            <input type="password" id="caja3" name="caja3" placeholder="password"><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+
+        <a class="home" href="../index.html"><b>Inicio</b> </a>
+    </main>
+</body>
+</html>
